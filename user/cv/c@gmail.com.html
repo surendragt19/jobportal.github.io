@@ -1,0 +1,275 @@
+<html>
+    <head>
+        <title>Test</title>
+    </head>
+
+    <style>
+        body{
+            background: #C8DFED;
+            font-family: sans-serif;
+        }
+        #outer
+        {
+            height: 550px;
+            width: 900px;
+            border-radius: 25px;
+            transform: translateY(30px);
+box-shadow: 0px 0px 20px 7px rgba(200, 200, 200, 1);
+margin: 0px auto;
+
+            
+        }
+      
+        #i1
+        {
+            height: 96%;
+            width: 46%;
+            background: white;
+            border-top-left-radius: 25px;
+
+            border-bottom-left-radius: 25px;
+            float: left;
+            padding: 2%;
+
+        }
+        #i2
+        {
+            height: 96%;
+            width: 46%;
+            background: #4488DD;
+            border-top-right-radius: 25px;
+
+            border-bottom-right-radius: 25px;
+            float: left;
+            padding: 2%;
+            color: rgba(252,252, 252, .9);
+
+        }
+        #heading
+        {
+            font-size: 25px;
+            font-family: sans-serif;
+            font-weight:lighter;
+            text-align: center;
+            color: gray;
+        }
+        .fill
+        {
+            margin: 5px 10px;
+            padding: 5px;
+        }
+        .img1
+        {
+            height:90px;
+
+            background-size: cover;
+            float: left;
+            
+        }
+        .con
+        {
+            margin-left: 25px;
+            line-height: 23px;
+            font-family: sans-serif;
+            font-size:17px;
+            
+
+        }
+        .price
+        {
+            font-family: sans-serif;
+            float: right; color: #7B9ACB;
+            font-weight: bold;
+        }
+        #sel
+        {
+            margin-left: 20px;
+            margin-right: 10px;
+            width: 100%;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            
+            background: #67a0e6;
+            border-radius: 4px;
+            border: none;
+            color: rgba(252,252, 252, .9);
+        
+           
+            
+        }
+        .inptext
+        {
+            font-size: 15px;;
+        }
+        .inp
+        {
+            
+            width: 100%;
+            padding: 7px;
+            
+            background: #67a0e6;
+            border-radius: 4px;
+            border: none;
+            font-size: 17px;
+            color: rgba(252,252, 252, .9);
+            margin-top: 3px;
+        }
+        .button
+        {
+            width: 100%;
+            text-align: center;
+            padding: 8px;
+            background: #16c275;
+            border-radius: 10px;
+            border: none;
+            font-size: 17px;
+            color: rgba(252,252, 252, 1);
+
+        }
+
+       
+
+
+            </style>
+    <body>
+
+        <div id="outer">
+            <div id="inner">
+                <div id="i1">
+
+
+                    <div id="heading">Order Summary</div>
+                    <hr>
+                    <div class=fill>
+                       
+                            <div style="float: left;"><img class="img1" src="1.png" ></div>
+
+                                     
+                        <div style="padding-top: 10px;">
+                            <span style="margin-left: 40px;" class="con">Nike</span><br>
+                            <span style="margin-left: 40px;" class="con">Free Run 3.0 Women</span><br>
+                            <span style="margin-left: 40px;" class="con" style="font-size: 15px;">Color: Gray/Orange,Size:10.5</span><br>
+                            <span class="price" >$99.95</span>
+
+                        </div>
+                    </div>
+                    <br>
+                    <hr>
+                    <div class=fill>
+                       
+                        <div style="float: left;"><img class="img1" src="22.png" ></div>
+
+                                 
+                    <div style="padding-top: 10px; ">
+                        <span style="margin-left: 55px;" class="con">Fjallraven</span><br>
+                        <span style="margin-left: 55px;" class="con">Vintage Backpack</span><br>
+                        <span style="margin-left: 55px;" class="con" style="font-size: 15px;">Color: Olive,Size:20L</span><br>
+                        <span class="price" >$235.95</span>
+
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <div class=fill>
+                       
+                    <div style="float: left;"><img class="img1" src="33.png" ></div>
+
+                             
+                <div style="padding-top: 10px;">
+                    <span class="con">Monobento</span><br>
+                    <span class="con">Double Lunchbox</span><br>
+                    <span class="con" style="font-size: 15px;">Color: Pink,Size:Medium</span><br>
+                    <span class="price" >$25.95</span>
+
+                </div>
+            </div>
+            <br>
+            <hr>
+            <div class="fill" style=" font-family:sans 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 500; line-height: 20px;">
+<div style="margin-top: 10px;">
+    <span>VAT 19%</span>
+<span style="float: right;">$68.75</span>
+<br>
+<span style="font-size: 15px;">Delivery</span>
+<span style="float: right;font-size: 15px;">$4.95</span>
+<br>
+<span style="font-size: 19px;">TOTAL</span>
+<span style="float: right;">$435.55</span>
+</div>
+            </div>
+
+
+
+                </div>
+                <div id="i2">
+                    <div style="float: left; margin-top: 5px;;">
+                        Please select your card :
+                    </div>
+
+                    <div style="float: left; width: 50%;">
+                        
+                        <select id="sel" >
+                            <option > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Visa</option>
+                        </select>
+                    </div>
+                    <br>
+
+
+                  <div style="margin-top: 20px;">
+                        <center>
+                            <img style="margin-top: 20px; margin-bottom: 15px;" src="visa.png">
+                        </center>
+
+                        
+                    </div>
+
+
+
+                  <div>
+                    <div style="margin-top: 10px;">
+                        <span class="inptext">Card Number</span>
+                        <input class="inp" type="number" name="number">
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <span class="inptext">Card Holder</span>
+                        <input class="inp" type="text" name="name">
+                    </div>
+
+                    <div style="margin-top: 10px;">
+                        <div style="width: 50%; float: left;">
+                            <span class="inptext">Expires</span>
+                            <input class="inp" type="text" name="name" style="width: 95%;">
+                        </div>
+                        <div style="width: 50%; float: left;">
+                            <span class="inptext">CVV</span>
+                            <input class="inp" type="number" name="name">
+                        </div>
+                    </div>
+
+
+                    <div >
+                        
+                        <button style="margin-top: 100px;" class="button">Checkout</button>
+                    </div>
+
+
+                  </div>
+
+
+
+                </div>
+
+              
+
+
+
+
+
+            </div>
+
+        </div>
+
+    </body>
+</html>
